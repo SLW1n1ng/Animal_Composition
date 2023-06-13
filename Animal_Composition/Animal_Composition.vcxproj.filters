@@ -30,6 +30,9 @@
     <ClCompile Include="fetchTenItems.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="petowner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cat.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fetchTenItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="petowner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -132,12 +132,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="cat.cpp" />
     <ClCompile Include="dog.cpp" />
+    <ClCompile Include="petowner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animal.h" />
     <ClInclude Include="cat.h" />
     <ClInclude Include="dog.h" />
     <ClInclude Include="fetchTenItems.h" />
+    <ClInclude Include="petowner.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="README.txt" />

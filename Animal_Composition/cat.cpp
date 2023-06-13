@@ -3,7 +3,7 @@
 
 Cat::Cat() : color("Any cat color"), age(0) {}							// default constructor implementation
 Cat::Cat(std::string color, int age) : animal(), color(color), age(age) { animal.setSound("Meow!\n"); }	// constructor
-Cat::~Cat() { std::cout << "Meeeowr!!..." << std::endl; }							//destructor implementation
+Cat::~Cat() {}														//destructor implementation
 Cat::Cat(const Cat& copy) : animal(copy.animal), color(copy.color), age(copy.age) {}	// copy cat constructor 
 
 const std::string Cat::getColor() const { return color; }						// get functions for color
